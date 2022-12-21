@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum set</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/drum.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="drum.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>  Drum <img width="100rem" src="images/drum.png" alt=""> set</h1>
+    </header>
+
+    <div class="container">
+
+        <div id="tom1" class="drum">
+            <h1>W</h1>
+        </div>
+        <div id="tom2" class="drum">
+            <h1>A</h1>
+        </div>
+        <div id="tom3" class="drum">
+            <h1>S</h1>
+        </div>
+        <div id="tom4" class="drum">
+            <h1>D</h1>
+        </div>
+        <div id="snare" class="drum">
+            <h1>J</h1>
+        </div>
+        <div id="crash" class="drum">
+            <h1>K</h1>
+        </div>
+        <div id="kick" class="drum">
+            <h1>L</h1>
+        </div>
+    </div>
+
+
+    <!-- audio -->
+
+    <audio class="ado" id="k" controls style="display: none;">
+        <source src="sounds/crash.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="l" controls style="display: none;">
+        <source src="sounds/kick.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="j" controls style="display: none;">
+        <source src="sounds/snare.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="w" controls style="display: none;">
+        <source src="sounds/tom-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="a" controls style="display: none;">
+        <source src="sounds/tom-2.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="s" controls style="display: none;">
+        <source src="sounds/tom-3.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="ado" id="d" controls style="display: none;">
+        <source src="sounds/tom-4.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- javascript -->
+    <script src="drum.js"></script>
+</body>
+
+</html>
